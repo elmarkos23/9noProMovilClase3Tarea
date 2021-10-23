@@ -998,11 +998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\9noProMovilClase2Tarea\\App1\\App1.iOS\\App1.iOS.csproj",
+      "projectUniqueName": "D:\\GitHub\\9noProMovilClase3Tarea\\App1\\App1.iOS\\App1.iOS.csproj",
       "projectName": "App1.iOS",
-      "projectPath": "D:\\GitHub\\9noProMovilClase2Tarea\\App1\\App1.iOS\\App1.iOS.csproj",
+      "projectPath": "D:\\GitHub\\9noProMovilClase3Tarea\\App1\\App1.iOS\\App1.iOS.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\9noProMovilClase2Tarea\\App1\\App1.iOS\\obj\\",
+      "outputPath": "D:\\GitHub\\9noProMovilClase3Tarea\\App1\\App1.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1029,8 +1029,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\GitHub\\9noProMovilClase2Tarea\\App1\\App1\\App1.csproj": {
-              "projectPath": "D:\\GitHub\\9noProMovilClase2Tarea\\App1\\App1\\App1.csproj"
+            "D:\\GitHub\\9noProMovilClase3Tarea\\App1\\App1\\App1.csproj": {
+              "projectPath": "D:\\GitHub\\9noProMovilClase3Tarea\\App1\\App1\\App1.csproj"
             }
           }
         }

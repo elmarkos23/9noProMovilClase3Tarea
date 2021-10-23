@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Login">
+  <ContentPage.Content>
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="20">
+      <Label Text="Login" HorizontalTextAlignment="Center" FontSize="30" Margin="0,0,0,40" />
+      <Label Text="Usuario:" />
+      <Entry x:Name="entUsuario" MaxLength="20"/>
+      <Label Text="Clave:" />
+      <Entry x:Name="entClave" IsPassword="True" MaxLength="15"/>
+      <Button Text="Acceder" Clicked="btnAcceder_Clicked"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

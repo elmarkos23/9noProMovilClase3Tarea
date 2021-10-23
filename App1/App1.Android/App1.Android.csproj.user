@@ -3,6 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Samsung SM-A315G</SelectedDevice>
     <ActiveDebugProfile>Samsung SM-A315G</ActiveDebugProfile>
-    <DefaultDevice>oreo_8_1_-_api_27_1</DefaultDevice>
+    <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
   </PropertyGroup>
 </Project>
