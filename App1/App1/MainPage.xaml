@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0" HasShadow="False">
+        <Label Text="Simulador el sistema de calificaciones" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+    <Frame BorderColor="Blue" Margin="20,3,20,3" Padding="5" CornerRadius="10">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Parcial 1" HorizontalTextAlignment="Center" TextColor="Blue" FontSize="30" VerticalOptions="Center"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Nota Seguimiento:" TextColor="Black" VerticalOptions="Center"/>
+        <Entry Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center" TextColor="Black" Keyboard="Numeric" MaxLength="2" x:Name="entNota1" Text="0"/>
+        <Label Grid.Row="2" Grid.Column="0" Text="Examen:" TextColor="Black" VerticalOptions="Center"/>
+        <Entry Grid.Row="2" Grid.Column="1"  HorizontalTextAlignment="Center"  TextColor="Black"  Keyboard="Numeric" MaxLength="2" x:Name="entExamen1" Text="0"/>
+        <Label Grid.Row="3" Grid.Column="0" Text="Nota:"/>
+        <Label Grid.Row="3" Grid.Column="1" Text="0" HorizontalTextAlignment="Center" />
+      </Grid>
+    </Frame>
+    <Frame BorderColor="Blue" Margin="20,3,20,3" Padding="5" CornerRadius="10">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Parcial 2" HorizontalTextAlignment="Center" TextColor="Blue" FontSize="30" VerticalOptions="Center"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Nota Seguimiento:" TextColor="Black" VerticalOptions="Center"/>
+        <Entry Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center" TextColor="Black" Keyboard="Numeric" MaxLength="2" x:Name="entNota2" Text="0"/>
+        <Label Grid.Row="2" Grid.Column="0" Text="Examen:" TextColor="Black" VerticalOptions="Center"/>
+        <Entry Grid.Row="2" Grid.Column="1"  HorizontalTextAlignment="Center"  TextColor="Black"  Keyboard="Numeric" MaxLength="2" x:Name="entExamen2" Text="0"/>
+        <Label Grid.Row="3" Grid.Column="0" Text="Nota:"/>
+        <Label Grid.Row="3" Grid.Column="1" Text="0" HorizontalTextAlignment="Center" />
+      </Grid>
+    </Frame>
+    <Button Text="Calcular" x:Name="btnCalcular" Margin="20,3,20,3" Padding="5" CornerRadius="10" BackgroundColor="Blue" Clicked="btnCalcular_Clicked"/>
+    <Frame BorderColor="Blue" Margin="20,3,20,3" Padding="5" CornerRadius="10">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Nota Final" HorizontalTextAlignment="Center" TextColor="Blue" FontSize="30" VerticalOptions="Center"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Nota Parcial 1:" TextColor="Black" VerticalOptions="Center"/>
+        <Label Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center" TextColor="Black" x:Name="labParcial1"/>
+        <Label Grid.Row="2" Grid.Column="0" Text="Nota Parcial 2:" TextColor="Black" VerticalOptions="Center" />
+        <Label Grid.Row="2" Grid.Column="1"  HorizontalTextAlignment="Center"  TextColor="Black" x:Name="labParcial2"/>
+        <Label Grid.Row="3" Grid.Column="0" Text="Nota Final:" TextColor="Black" VerticalOptions="Center" />
+        <Label Grid.Row="3" Grid.Column="1" Text="0" HorizontalTextAlignment="Center"  x:Name="labNotaFinal" TextColor="Black"/>
+        <Label Grid.Row="4" Grid.Column="0" Text="Estado:" TextColor="Black" VerticalOptions="Center"/>
+        <Label Grid.Row="4" Grid.Column="1" Text="0" HorizontalTextAlignment="Center" x:Name="labEstado" />
+      </Grid>
+    </Frame>
+
+  </StackLayout>
+
+</ContentPage>
